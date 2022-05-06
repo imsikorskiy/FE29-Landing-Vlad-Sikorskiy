@@ -1,347 +1,401 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">   
-    <link href="./styles/index.css" rel="stylesheet">
-    <link href="./styles/awesome-section.css" rel="stylesheet">
-    <link href="./styles/pricing-section.css" rel="stylesheet">
-    <link href="./styles/customers-section.css" rel="stylesheet">
-    <link href="./styles/axure-section.css" rel="stylesheet" >
-    <link href="./styles/header-section.css" rel="stylesheet">
-    <link href="./styles/footer-section.css" rel="stylesheet">
-    <link href="./styles/social-section.css" rel="stylesheet">
-    <link href="./styles/contacts-section.css" rel="stylesheet">
-    <link href="./styles/navigation-section.css" rel="stylesheet">
-    <link href="./styles/feautures-section.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/c974aae434.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <section class="navigation">
-        <div class="navigation__container">
-            <div class="navigation__logo">AX<span>IT</span></div>
-            <div class="navigation__menu">
-                <ul class="navigation__menu__item">
-                    <li class="navigation__menu__feautures">
-                        <a href="/Feautures">Feautures</a>
-                    </li>
-                    <li class="navigation__menu__about">
-                        <a href="/About">About</a>
-                    </li>
-                    <li class="navigation__menu__pricing">
-                        <a href="/Pricing">Pricing</a>
-                    </li>
-                    <li class="navigation__menu__reviews">
-                        <a href="/Reviews">Reviews</a>
-                    </li>
-                    <li class="navigation__menu__contact">
-                        <a href="/Contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="logo">
+            AX</div>
+          <nav class="navigation">
+            <li class="navigation-item">
+              <a href="#">Features</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#">About</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#">Pricing</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#">Reviews</a>
+            </li>
+            <li class="navigation-item">
+              <a href="#">Contact</a>
+            </li>
+          </nav>
+          <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
-    </section>
-    <section class="header">
-        <div class="header__container">
-            <div class="header__content">
-                <div class="header__title">AX<span class="header__title__highlight">IT</span></div>
-                <h1 class="header__subtitle">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
-                <div class="header__text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean</p>
+      </div>
+    </header>
+    <section class="firstscreen">
+      <div class="container">
+        <div class="wrap">
+          <div class="firstscreen-left">
+            <div class="main-title-logo">
+              <p>AX</p>
+            </div>
+            <h1 class="main-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
+            <div class=" slogan-firstscreen">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate</p>
+            </div>
+            <button class="firstscreen-btn">Download</button>
+          </div>
+          <div class="firstscreen-right">
+            <form class="firstscreen-form">
+              <div class="firstscreen-form-content">
+                <h2 class="firstscreen-form-title">Try Your <span class="form-title-span">FREE</span> Trial Today</h2>
+                <div class="form-content-item">
+                  <label for="name">Name</label>
+                  <input type="text" id="name">
                 </div>
-                <a class="header__button" href="/">Download</a>
-            </div>
-            <div class="header__form">
-                <form action="/">
-                    <div class="header__form__title">
-                        <p>Try Your <span>FREE</span> Trial Today</p>
-                    </div>
-                    <div class="header__form__fields">
-                        <div class="header__form__input">
-                            <label for="name">Name</label>
-                            <input type="text" id="name">
-                        </div>
-                        <div class="header__form__input">
-                             <label for="email">Email</label>
-                            <input type="text" id="email">
-                        </div>
-                        <div class="header__form__input">
-                            <label for="password">Password</label>
-                            <input type="text" id="password">
-                        </div>
-                    </div>
-                    <button class="header__form__button">Get Started</button>
-                </form>
-            </div>
+                <div class="form-content-item">
+                  <label for="email">Email</label>
+                  <input type="email" id="email">
+                </div>
+                <div class="form-content-item">
+                  <label for="password">Password</label>
+                  <input type="password" id="password">
+                </div>
+              </div>
+              <button class="firstscreen-form-btn">Get Started</button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="social">
-        <div class="social__container">
-            <div class="social__content">
-                <div class="social__title">Social Media</div>
-                <div class="social__subtitle">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Aenean euismod bibendum laoreet.</p>
-                </div>
+    <section class="secondscreen">
+      <div class="container">
+        <div class="wraper">
+          <div class="tabs">
+            <button class="btn active">TAB 1</button>
+            <button class="btn">TAB 1</button>
+            <button class="btn">TAB 1</button>
+          </div>
+          <div class="secondscreen-desc">
+            <h2 class="secondscreen-title">Tabs with soft transitioning effect.</h2>
+            <div class="secondscreen-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
+                justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
+                penatibus et magnis dis parturient montes.</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
+                  bibendum laoreet.</p>
+                <button class="secondscreen-btn">
+                  <a href="#">Download</a>
+                </button>
             </div>
-            <div class="social__social-icons">
-                <a target="_blank" href="https://www.facebook.com">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a target="_blank" href="https://twitter.com">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://coba.tools/google">
-                    <i class="fa-brands fa-google-plus-g"></i>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a target="_blank" href="/">
-                    <i class="fa-solid fa-rss"></i>
-                </a>
-                <a target="_blank" href="https://www.mail.ru">
-                    <i class="fa-solid fa-at"></i>
-                </a>
-            </div>
+          </div>
+          <div class="secondscreen-image">
+            <img src="./img/secondscreen-img.png" alt="#">
+          </div>
         </div>
+      </div>
     </section>
-    <section class="feautures">
-        <div class="feautures__container">
-            <div class="feautures__tabs">
-                <div class="feautures__tab feautures__tab__active">tab 1</div>
-                <div class="feautures__tab">tab 1</div>
-                <div class="feautures__tab">tab 1</div>
+    <section class="social-media">
+      <div class="container">
+        <div class="wrap">
+          <div class="left-social-media">
+            <h2 class="title__social-media"> Social Media</h2>
+            <div class="social-media-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
+              </p>
             </div>
-            <div class="feautures__contents">
-                <div class="feautures__content">
-                    <h2 class="feautures__content__title">Tabs with soft transitioning effect.</h2>
-                    <div class="feautures__content__text">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra 
-                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque 
-                        penatibus et magnis dis parturient montes.</p> 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
-                        bibendum laoreet.</p>  
-                    </div>
-                    <button class="feautures__content__button">Download</button>
-                </div>
-                <div class="feautures__content__img">
-                    <img src="./img/img-feautures.png" alt="picture">
-                </div>
-            </div>
+          </div>
+          <ul class="right-social-media">
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-pinterest"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+          </ul>    
+      </div>
+    </div>
+    </section>
+    <section class="process">
+      <div class="container">
+        <h2 class="title">WHY THIS IS AWESOME</h2>
+        <!-- <div class="line"></div> -->
+        <div class="slogan">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-    </section>
-    <section class="awesome">
-            <div class="awesome__container">
-                <h2 class="awesome__title">WHY THIS IS AWESOME</h2>
-                <p class="awesome__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="cards">
-                    <div class="card">
-                        <div class="card__img">
-                            <img class="card__img__logo" src="./img/lamp.png" alt="Lamp">
-                        </div>
-                        <p class="card__title">Thoughtful Design</p>
-                        <p class="card__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img class="card__img__logo" src="./img/keyboard.png" alt="keyboard"> 
-                        </div>
-                        <p class="card__title">Well Crafted</p>
-                        <p class="card__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img class="card__img__logo" src="./img/lightning.png" alt="lightning"> 
-                        </div>
-                        <p class="card__title">Easy to Customize</p>
-                        <p class="card__text">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing 
-                            elit. Aenean euismod bibendum laoreet. Proin gravida  dolor sit amet lacus accumsan et viverra.
-                        </p>
-                    </div>
-                </div>
+        <div class="wrap">
+          <div class="card">
+            <div class="card-image">
+              <i class="fa-solid fa-lightbulb"></i>
             </div>
-    </section>  
+            <h3 class="card-title">Thoughtful Design</h3>
+            <div class="card-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <i class="fa-solid fa-keyboard"></i>
+            </div>
+            <h3 class="card-title">Well Crafted</h3>
+            <div class="card-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <i class="fa-solid fa-bolt-lightning"></i>
+            </div>
+            <h3 class="card-title">Easy to Customize</h3>
+            <div class="card-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="pricing">
-            <div class="pricing__container">
-                <h2 class="pricing__title">pricing options</h2>
-                <p class="pricing__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="prices">
-                    <div class="wrapper-tariff-card">
-                        <ul class="tariff-card">
-                            <li class="tariff-card__tariff">Basic</li>
-                            <li class="tariff-card__price">$10</li>
-                            <li class="tariff-card__note">Free for life</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                        </ul> 
-                    </div>
-                    <div class="wrapper-tariff-card">
-                        <ul class="tariff-card">
-                            <li class="tariff-card__tariff">Optima</li>
-                            <li class="tariff-card__price">$20</li>
-                            <li class="tariff-card__note">Free for life</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                        </ul>
-                    </div>
-                    <div class="wrapper-tariff-card">
-                        <ul class="tariff-card">
-                            <li class="tariff-card__tariff">Pro</li>
-                            <li class="tariff-card__price">$30</li>
-                            <li class="tariff-card__note">Free for life</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                            <li class="tariff-card__service">1 gb of space</li>
-                        </ul>
-                    </div>
-    </section>   
-    <section class="customers">
-            <div class="customers__container">
-                <h2 class="customers__title">what our customers are saying</h2>
-                <p class="customers__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <div class="reviews">
-                     <div class="reviews-card">
-                          <p class="reviews-card__text">
-                              Lorem ipsum dolor sit amet, 
-                              consectetur adipisicing elit. Doloribus 
-                              accusamus expedita repellat similique 
-                              odio aspernatur ex, architecto eaque 
-                              quo suscipit.
-                          </p> 
-                          <div class="reviews-card__content">
-                              <div class="reviews-card__content__img">
-                                  <img src="./img/user_profile.png" alt="picture">
-                              </div>
-                              <div class="reviews-card__content__info">
-                                  <div class="reviews-card__content__name">Jeremy H.</div>
-                                  <p class="reviews-card__content__profession">Manager</p>
-                              </div>
-                          </div> 
-                      </div>
-                      <div class="reviews-card">
-                          <p class="reviews-card__text">
-                              Lorem ipsum dolor sit amet, 
-                              consectetur adipisicing elit. Doloribus 
-                              accusamus expedita repellat similique 
-                              odio aspernatur ex, architecto eaque 
-                              quo suscipit.
-                          </p> 
-                          <div class="reviews-card__content">
-                              <div class="reviews-card__content__img">
-                                  <img src="./img/user_profile.png" alt="picture">
-                              </div>
-                              <div class="reviews-card__content__info">
-                                  <div class="reviews-card__content__name">Jeremy H.</div>
-                                  <p class="reviews-card__content__profession">Manager</p>
-                              </div>
-                          </div> 
-                      </div>
-                      <div class="reviews-card">
-                          <p class="reviews-card__text">
-                              Lorem ipsum dolor sit amet, 
-                              consectetur adipisicing elit. Doloribus 
-                              accusamus expedita repellat similique 
-                              odio aspernatur ex, architecto eaque 
-                              quo suscipit.
-                          </p> 
-                          <div class="reviews-card__content">
-                              <div class="reviews-card__content__img">
-                                  <img src="./img/user_profile.png" alt="picture">
-                              </div>
-                              <div class="reviews-card__content__info">
-                                  <div class="reviews-card__content__name">Jeremy H.</div>
-                                  <p class="reviews-card__content__profession">Manager</p>
-                              </div>
-                          </div> 
-                      </div>
+      <div class="container">
+        <h2 class="title">PRICING OPTIONS</h2>
+        <!-- <div class="line"></div> -->
+        <div class="slogan">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="wrap">
+          <ul class="list">
+            <li class="list-type">Basic</li>
+            <li class="list-price">$10</li>
+            <li class="list-note">Free for life</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+          </ul>
+          <ul class="list">
+            <li class="list-type">Optima</li>
+            <li class="list-price">$20</li>
+            <li class="list-note">Free for life</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+          </ul>
+          <ul class="list">
+            <li class="list-type">Pro</li>
+            <li class="list-price">$30</li>
+            <li class="list-note">Free for life</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+            <li class="list-size">1 gb of space</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="comments">
+      <div class="container">
+        <h2 class="title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+        <!-- <div class="line"></div> -->
+        <div class="slogan">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="wrap">
+          <div class="card-comment">
+            <div class="card-comment_text">
+              <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit.
+               </p>
+            </div>
+            <div class="card-comment_client">
+              <div class="card-comment_client_img">
+                <img alt="MAN" src="./img/comments-man.jpg">
+              </div>
+              <div class="card-comment_client_name">
+                <span class="name"> Jeremy H.</span>
+                <span class="position"> Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-comment">
+            <div class="card-comment_text">
+              <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit.
+               </p>
+            </div>
+            <div class="card-comment_client">
+              <div class="card-comment_client_img">
+                <img alt="MAN" src="./img/comments-man.jpg">
+              </div>
+              <div class="card-comment_client_name">
+                <span class="name"> Jeremy H.</span>
+                <span class="position"> Manager</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-comment">
+            <div class="card-comment_text">
+              <p>Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit. Doloribus 
+                accusamus expedita repellat similique 
+                odio aspernatur ex, architecto eaque 
+                quo suscipit.
+               </p>
+            </div>
+            <div class="card-comment_client">
+              <div class="card-comment_client_img">
+                <img alt="MAN" src="./img/comments-man.jpg">
+              </div>
+              <div class="card-comment_client_name">
+                <span class="name"> Jeremy H.</span>
+                <span class="position"> Manager</span>
+              </div>
+            </div>
+          </div>
+      </div>
     </section>
     <section class="axure">
-            <div class="axure__container">
-                <h2 class="axure__title">STYLISH AXURE DESIGN</h2>
-                <p class="axure__subtitle">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-                <div class="axure__button">Download</div>
-            </div>
-    </section>
-    <section class="contact-us">
-        <div class="contact-us__container">
-            <div class="contact-us__title">contact us</div>
-            <p class="contact-us__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <form class="contact-us__form" action="/">
-                <div class="contact-us__form__fields">
-                    <div class="contact-us__form__block">
-                         <div class="contact-us__form__input">
-                           <label for="name">Name</label>
-                           <input type="text" id="name">
-                        </div>
-                        <div class="contact-us__form__input">
-                           <label for="email">Email</label>
-                           <input type="text" id="email">
-                        </div>
-                        <div class="contact-us__form__input">
-                           <label for="password">Password</label>
-                           <input type="text" id="password">
-                        </div>
-                    </div>
-                    <div class="contact-us__form__block">
-                        <div class="contact-us__form__message">
-                            <label for="message">Message</label>
-                            <textarea id="message"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <button class="contact-us__form__button">Send Message</button>
-            </form>
+      <div class="container">
+        <h2 class="title title_axure">STYLISH AXURE DESIGN</h2>
+        <!-- <div class="line"></div> -->
+        <div class="slogan slogan_axure">
+          <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
         </div>
+        <button class="button" type="button"> Download</button>
+      </div>
     </section>
-    <section class="footer">
-        <div class="container">
-            <div class="footer__social">
-                <a target="_blank" href="https://www.facebook.com">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </a>
-                <a target="_blank" href="https://twitter.com">
-                    <i class="fa-brands fa-twitter"></i>
-                </a>
-                <a target="_blank" href="https://coba.tools/google">
-                    <i class="fa-brands fa-google-plus-g"></i>
-                </a>
-                <a target="_blank" href="https://www.instagram.com/">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a target="_blank" href="/">
-                    <i class="fa-solid fa-rss"></i>
-                </a>
-                <a target="_blank" href="https://www.mail.ru">
-                    <i class="fa-solid fa-at"></i>
-                </a>
-            </div>
-            <div class="copyright">© 2015 Axure Themes</div>
+    <section class="contact">
+      <div class="container">
+        <h2 class="title">CONTACT US</h2>
+        <div class="slogan">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
+        <form class="contact-form">
+          <div class="contact-form-content">
+            <div class="contact-form-content-left">
+              <div class="contact-form-content-item">
+                <label for="contact-name">Name</label>
+                <input type="text" id="contact-name">
+              </div>
+              <div class="contact-form-content-item">
+                <label for="contact-email">Email</label>
+                <input type="email" id="contact-email">
+              </div>
+              <div class="contact-form-content-item">
+                <label for="contact-password">Password</label>
+                <input type="password" id="contact-password">
+              </div>
+            </div>
+            <div class="contact-form-content-right">
+              <label for="message">Message</label>
+              <textarea id="message"></textarea>
+            </div>
+          </div>
+          <button class="contact-form-btn">Send Message</button>
+        </form>
+      </div>
     </section>
-</body>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-social-media">
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-facebook-f footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-twitter footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-google-plus-g footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-pinterest footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-instagram footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-telegram footer_social_media_icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-youtube footer_social_media_icon"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="footer-text">
+          <p>© 2015 Axure Themes</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

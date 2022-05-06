@@ -1,0 +1,56 @@
+.axure {
+  background-image: url(../img/axure-background.png);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.axure::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.549);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.title_axure {
+  color: #ffffff;
+}
+.title_axure::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #ffffff !important;
+  display: block;
+  margin: 34px auto;
+}
+.slogan_axure {
+  color: rgba(255, 255, 255, 0.8) !important;
+  margin-bottom: 57px;
+  font-size: 16px !important;
+  font-family: "Raleway" !important;
+  font-weight: 300 !important;
+}
+.button {
+  display: block;
+  width: 135px;
+  height: 42px;
+  margin: auto;
+  border: 1px solid #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.button:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,141 @@
+.firstscreen {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../img/firstscreen-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+.firstscreen::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-color: rgba(0, 0, 0, 0.45);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.firstscreen-left {
+  width: 550px;
+  margin: 0 15px;
+}
+.main-title-logo {
+  margin-bottom: 42px;
+}
+.main-title-logo p {
+  font-family: "Raleway";
+  font-weight: 400;
+  font-size: 60px;
+  color: #fff;
+}
+.main-title-logo p::after {
+  content: "IT";
+  line-height: 70px;
+  display: inline-block;
+  color: #ec7979;
+}
+.main-title {
+  font-family: "Raleway";
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+}
+.main-title::after {
+  content: "";
+  width: 64px;
+  height: 0px;
+  display: block;
+  border: 1px solid #ffffff;
+  margin: 32px 0 39px;
+}
+.slogan-firstscreen p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #86878b;
+  font-family: "Open Sans";
+}
+.slogan-firstscreen {
+  max-width: 250px;
+  margin-bottom: 39px;
+}
+
+.firstscreen-btn {
+  display: block;
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+}
+.firstscreen-btn:hover {
+  transform: scale(1.05);
+}
+.firstscreen-right {
+  margin: 0 15px;
+}
+.firstscreen-form {
+  max-width: 370px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.firstscreen-form-content {
+  padding: 0 59px 61px;
+}
+.firstscreen-form-title {
+  font-size: 20px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 44px;
+  line-height: 56px;
+}
+.form-title-span {
+  color: #ec7979;
+}
+.form-content-item {
+  color: #bdbdbd;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-family: "Open Sans";
+}
+.form-content-item:last-child {
+  margin-bottom: 0;
+}
+label {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+input {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.firstscreen-form-btn {
+  width: 100%;
+  height: 54px;
+  background-color: #ec7979;
+  border-radius: 0 0 8px 8px;
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 600;
+  border: none;
+}
+.firstscreen-form-btn:hover {
+  background-color: #d76e6e;
+}

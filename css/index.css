@@ -1,0 +1,191 @@
+@import url(../css/cdn.css);
+@import url(../css/header.css);
+@import url(../css/firstscreen.css);
+@import url(../css/secondscreen.css);
+@import url(../css/social-media.css);
+@import url(../css/process.css);
+@import url(../css/pricing.css);
+@import url(../css/comments.css);
+@import url(../css/axure.css);
+@import url(../css/contant.css);
+@import url(../css/footer.css);
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  padding: 80px 0;
+  position: relative;
+}
+.container {
+  position: relative;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  z-index: 2;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.slogan {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 68px;
+  color: #86878b;
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.slogan {
+  font-family: "Open Sans", sans-serif;
+}
+.title::after {
+  content: "";
+  width: 64px;
+  height: 2px;
+  background-color: #e72424;
+  display: block;
+  margin: 34px auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+  .wrap {
+    justify-content: space-evenly;
+  }
+  .list {
+    margin-bottom: 15px;
+  }
+  .list:last-child {
+    margin-bottom: 0px;
+  }
+  .firstscreen-left {
+    margin-bottom: 15px;
+    max-width: 400px;
+  }
+  .firstscreen-right {
+    max-width: 470px;
+  }
+  .wraper {
+    align-items: center;
+  }
+  .secondscreen-btn {
+    margin-top: 70px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+  .card:last-child {
+    margin-bottom: 0px;
+  }
+
+  .card-comment {
+    margin-bottom: 15px;
+  }
+  .card-comment:last-child {
+    margin-bottom: 0px;
+  }
+  .left-social-media {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .firstscreen-left {
+    max-width: 300px;
+  }
+  .firstscreen-right {
+    max-width: 400px;
+  }
+  .wraper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tabs {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+  }
+  .btn {
+    margin: 0 15px 15px;
+  }
+  .btn:last-child {
+    margin-bottom: 0px;
+  }
+  .right-social-media {
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .navigation {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .firstscreen-left {
+    max-width: 750px;
+  }
+  .main-title-logo p {
+    font-size: 45px;
+  }
+  .main-title {
+    font-size: 30px;
+  }
+  .title {
+    font-size: 27px;
+  }
+  .firstscreen-form-title {
+    font-size: 17px;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    width: 100%;
+  }
+  .firstscreen-form-title {
+    font-size: 13px;
+  }
+  input,
+  label {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+}

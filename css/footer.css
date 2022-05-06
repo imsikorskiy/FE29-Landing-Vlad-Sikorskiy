@@ -1,0 +1,64 @@
+footer {
+  padding: 30px 0;
+  background-color: #000000;
+}
+.footer-social-media {
+  max-width: 317px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto 18px;
+}
+.social-item {
+  margin: 0 15px;
+}
+
+.footer_social_media_icon {
+  font-size: 14px;
+  color: grey;
+}
+
+.fa-facebook-f:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: rgb(9, 54, 179);
+  transition: 1s;
+}
+.fa-twitter:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: rgb(85, 133, 228);
+  transition: 1s;
+}
+.fa-google-plus-g:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: rgb(243, 74, 74);
+  transition: 1s;
+}
+.fa-pinterest:hover {
+  color: rgb(208, 32, 32);
+  transform: rotate(360deg) scale(1.5);
+  transition: 1s;
+}
+.fa-instagram:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: rgb(172, 77, 172);
+  transition: 1s;
+}
+.fa-telegram:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: rgb(75, 138, 215);
+  transition: 1s;
+}
+.fa-youtube:hover {
+  transform: rotate(360deg) scale(1.5);
+  color: red;
+  transition: 1s;
+}
+.footer-text p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}

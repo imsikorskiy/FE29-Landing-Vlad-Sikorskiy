@@ -1,0 +1,61 @@
+header {
+  padding: 20px 0;
+  background-color: #000;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navigation li {
+  margin-left: 50px;
+  margin: 0 15px;
+  border-bottom: 3px solid rgba(255, 255, 255, 0);
+}
+.navigation li:first-child {
+  margin-left: 0;
+}
+.logo {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Raleway";
+  margin: 0 15px;
+}
+.logo::after {
+  content: "IT";
+  height: 30px;
+  display: inline-block;
+  color: #ec7979;
+}
+a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Open Sans";
+}
+.navigation-item:hover {
+  border-bottom: 3px solid #fff;
+}
+.burger {
+  width: 35px;
+  height: 35px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.fa-bars {
+  font-size: 25px;
+}

@@ -1,0 +1,79 @@
+.wraper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 -15px;
+}
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0 15px;
+}
+.btn {
+  border: none;
+  outline: none;
+  width: 112px;
+  height: 110px;
+  background-color: #333333;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  margin-bottom: 10px;
+}
+.btn:last-child {
+  margin-bottom: 0;
+}
+.active,
+.btn:hover {
+  background-color: #ec7979;
+}
+.secondscreen-desc {
+  max-width: 572px;
+  margin: 0 15px;
+}
+.secondscreen-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Open Sans";
+  text-align: left;
+  margin-bottom: 58px;
+}
+.secondscreen-text {
+  color: #86878b;
+  font-size: 14px;
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.secondscreen-btn {
+  margin-top: 89px;
+  border: none;
+  outline: none;
+  width: 135px;
+  height: 42px;
+  background-color: #ec7979;
+  cursor: pointer;
+}
+.secondscreen-btn a {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 600;
+}
+.secondscreen-btn:hover {
+  transform: scale(1.05);
+}
+.secondscreen-image {
+  margin: 0 15px;
+  max-width: 320px;
+  height: 253px;
+}
+.secondscreen-image img {
+  height: 100%;
+}
