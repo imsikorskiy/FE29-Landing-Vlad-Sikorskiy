@@ -1,0 +1,77 @@
+.axure {
+    background-image: url(../img/background\ 1.png);
+    padding: 58px 32px 38px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.axure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1;
+}
+
+.axure__container {
+    max-width: 1170;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.axure__title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 34px;
+}
+
+.axure__title::after {
+    content: "";
+    width: 64px;
+    height: 2px;
+    display: block;
+    margin: 34px auto 0;
+    background-color: #FFFFFF;
+}
+
+.axure__subtitle {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 57px;
+}
+
+.axure__button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    width: 135px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: all ease-in-out .2s;
+}
+
+.axure__button:hover {
+    background-color: rgba(240, 240, 240, 0.2);
+}

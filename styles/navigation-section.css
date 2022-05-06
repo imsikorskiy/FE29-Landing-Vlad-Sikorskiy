@@ -1,0 +1,42 @@
+.navigation {
+    background: #000000;
+}
+
+.navigation__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.navigation__logo {
+    font-family: 'Raleway';
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    padding: 20px 0 19px;
+}
+
+.navigation__logo span {
+    color: coral;
+}
+
+.navigation__menu__item {
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    padding: 25px 0;
+}
+
+.navigation__menu__item li {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navigation__menu__item a {
+    color: rgba(255, 255, 255, 0.7);
+}
